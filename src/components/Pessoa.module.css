@@ -1,0 +1,11 @@
+.profissao {
+  color: rgb(95, 94, 94);
+  background-color: bisque;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.sizers {
+  width: 200px;
+  height: 200px;
+}
