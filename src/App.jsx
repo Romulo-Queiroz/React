@@ -3,6 +3,7 @@ import Seunome from "./components/componenteUm";
 import CriaParagraf from "./components/componenteDois";
 import SayMyName from "./components/SayMyName";
 import Pessoa from "./components/Pessoa";
+import Frase from "./components/Frase";
 
 function App() {
   const name = "Rômulo";
@@ -14,12 +15,14 @@ function App() {
       <SayMyName name="Romulo" />
       <SayMyName name="Outro nome" />
 
-      <Pessoa
+      <Frase />
+
+      {/*  <Pessoa
         nome="Romulo"
         idade="30"
         profissao="Desenvolvedor"
         foto="https://avatars.githubusercontent.com/u/11314585?v=4"
-      />
+      /> */}
     </div>
   );
 }

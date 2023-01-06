@@ -1,0 +1,12 @@
+.texto {
+  background-color: brown;
+}
+
+.container {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  max-width: 800px;
+}
