@@ -16,9 +16,9 @@ function App() {
 
       <Pessoa
         nome="Romulo"
-        idade="30"
+        idade="25"
         profissao="Desenvolvedor"
-        foto="https://avatars.githubusercontent.com/u/11314585?v=4"
+        foto="https://avatars.githubusercontent.com/u/88904173?v=4"
       />
     </div>
   );
