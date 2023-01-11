@@ -1,11 +1,10 @@
 import "./App.css";
-import Form from "./components/form";
+import Evento from "./components/Evento";
 
 function App() {
-  const name = "Rômulo";
   return (
     <div className="App">
-      <Form />
+      <Evento />
     </div>
   );
 }
