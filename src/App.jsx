@@ -1,11 +1,11 @@
 import "./App.css";
-import OnClique from "./components/OnClick";
+import Form from "./components/form";
 
 function App() {
   const name = "Rômulo";
   return (
     <div className="App">
-      <OnClique />
+      <Form />
     </div>
   );
 }
