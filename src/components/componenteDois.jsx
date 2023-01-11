@@ -1,8 +1,12 @@
+import { useState } from "react";
+
 function CriaParagraf() {
-  let paragrafo = "Este é um parágrafo foi criado por uma função";
+  const [paragrafo, setParagrafo] = useState();
+
   return (
     <div>
-      <p>{paragrafo}</p>
+      <p></p>
+      <button>Função</button>
     </div>
   );
 }
