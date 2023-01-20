@@ -1,10 +1,12 @@
 import "./App.css";
-import Condicional from "./components/Condicional";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import Bootstra from "./components/Bootstra";
+
 function App() {
   return (
     <div className="App">
-      <h1>Renderização Condicional</h1>
-      <Condicional />
+      <Bootstra />
     </div>
   );
 }
