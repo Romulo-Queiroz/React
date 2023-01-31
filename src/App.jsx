@@ -1,12 +1,12 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-import Bootstra from "./components/Bootstra";
-
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
-      <Bootstra />
+      <h1>React App</h1>
+      <Navbar />
     </div>
   );
 }

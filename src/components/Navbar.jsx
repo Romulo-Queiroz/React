@@ -1,8 +1,11 @@
-import Bootstrap from 
-
-function Bootstra() {
+import React from "react";
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+// Bootstrap Bundle JS
+import "bootstrap/dist/js/bootstrap.bundle.min";
+const Navbar = () => {
   return (
-    <>
+    <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -43,9 +46,8 @@ function Bootstra() {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
-}
+};
 
-export default Bootstra;
-
+export default Navbar;
